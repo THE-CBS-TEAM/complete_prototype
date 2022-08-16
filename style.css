@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+   width: 100%;
+   background-color: rgb(148, 75, 22);
+     
+}
+.move{
+    position: fixed;
+    top:0;
+background-color: skyblue;
+color: skyblue;
+right: 0;
+border: none;
+}
+nav{
+    padding: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:skyblue;
+    position: fixed;
+    top: 0px;
+}
+  .anchor{
+    color: skyblue;
+    border-bottom: none;
+  }
+  .anchor:hover{
+    background-color: saddlebrown;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+  } 
+.container2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 25px;
+    border: 1px solid blur;
+    background-color:  rgb(238, 238, 238);;
+    padding: 10%;
+    line-height: 50px;
+    margin-top: 10%;
+    border-radius: 20px;
+    color: rgb(46, 41, 41);
+}
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px; 
+    margin-top: 20%;
+    color: skyblue;
+}
+
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size:large; 
+    margin-top: 10%;
+    color:skyblue;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 2%;
+    width: 20%;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.btn1:hover{
+    background-color:skyblue;
+    color: green;
+    transition: 0.5s;
+    transform: scale(1.115);
+    cursor: pointer;
+}
+.image-container{
+    display: block;
+    justify-content: center;
+    width: 100%;
+}
+img{
+    width: 50%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+}
+.CONTAINER{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size:30px; 
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color:skyblue; 
+    padding: 5%;
+background-color: rgb(99, 79, 66);
+border-radius: 10px;
+}
+label{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size:20px; 
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color:skyblue; 
+    padding: 5%; 
+}
+#nav-image{
+    width: 10%;
+    border-radius:5px ;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 12%;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#home{
+    border: 3px solid saddlebrown ;
+}
+.nav-btn{
+   border: none; 
+   padding: 10px;
+   background-color: skyblue;
+   
+}
+.nav-btn:hover{
+    border: 3px solid saddlebrown ;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    border-radius: 5px;
+}
+@media (max-width:908px){
+    .container2{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        font-size: 25px;
+        border: 1px solid blur;
+        background-color:  rgb(238, 238, 238);;
+        padding: 10%;
+        line-height: 50px;
+        margin-top: 10%;
+        border-radius: 20px;
+        color: rgb(46, 41, 41);
+    }
+    body{
+        font-size: 16px;
+        font-family: sans-serif;
+       width: 100%;
+       
+      
+    }
+    .move{
+        position: fixed;
+        top:0;
+        padding:2% ;
+        border-radius: 10px;
+    background-color: black;
+    color: white;
+    right: 0;
+    border: none;
+    }
+    nav{
+        position: fixed;
+        left: -100%;
+    }
+    #nav-image{
+        width: 20%;
+        border-radius:5px ;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 5%;
+    }
+}
+@media (min-width:375px){
+    .container2{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        font-size: 25px;
+        border: 1px solid blur;
+        background-color:  rgb(238, 238, 238);;
+        padding: 10%;
+        line-height: 50px;
+        margin-top: 10%;
+        border-radius: 20px;
+        color: rgb(46, 41, 41);
+    }
+    body{
+        font-size: 16px;
+        font-family: sans-serif;
+       width: 100%;
+       
+      
+    }
+  
+    
+    #nav-image{
+        width: 10%;
+        border-radius:5px ;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 5%;
+    }
+}
+.reach{
+    display: flex;
+    justify-content: space-around;
+    margin:auto ;
+    margin-top: 10%;
+    border-top: 2px solid white;
+}
+
+
+
+

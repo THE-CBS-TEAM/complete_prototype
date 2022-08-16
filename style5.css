@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
+}
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color:  rgba(221, 210, 210, 0.849) ;
+}
+.host{
+    display:grid;
+    justify-content: center;
+    
+}
+audio{
+    margin-top: 5%;
+}
