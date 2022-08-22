@@ -14,12 +14,13 @@
       <button class="nav-btn"><a href="register.html">Register</a></button>
       <button class="nav-btn"><a href="resources.html">Resources</a></button>
     </nav>
-    <div class="move" id="select">
-        <div><a class="anchor" href="index.html">Home</a></div>
-        <div><a  class="anchor" href="register.html">Register</a></div>
-        <div><a  class="anchor" href="resources.html">Resources</a></div>
+    <select class="move" id="select" onchange="location = this.value;" >
+        <option value="index.html">Home</option>
+        <option value="register.html">Register</option>
+        <option value="resources.html">Resources</option>
         
-    </div>
+        
+    </select>
 </header>
 <body>
     <div class="container1">
